@@ -16,7 +16,7 @@ k.value <- 2.0
 c.value <- 7.0
 v.ave <- round(c.value*gamma(1+1/k.value),2)
 
-shinyServer(function(input, output){
+shinyServer(function(input, output, session){
 
   
   prepare.data <- reactive({
@@ -41,7 +41,7 @@ shinyServer(function(input, output){
   
   output$wbplot <- renderPlot({
     df.wdplot <- prepare.data()
-    ggplot(df.wdplot, aes(x = df.wdplot$ws, y = df.wdplot$p)) +
+    ggplot(df.wdplot, aes(x = ws, y = p)) +
       xlab("Wind speed (m/s)") +
       ylab("Probability") +
       geom_line(color = "blue", size=1)
@@ -53,6 +53,7 @@ shinyServer(function(input, output){
     
   }) 
   
-
+  # End application after closing a window or tab
+  session$onSessionEnded(stopApp)
   
 })
