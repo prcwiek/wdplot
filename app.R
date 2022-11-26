@@ -35,15 +35,7 @@ ui <- fluidPage(
            textOutput("text1")
            )
     )
-  
-  # fluidRow(
-  #   column(8, offset = 2,
-  #          plotOutput("wbplot"),
-  #          textOutput("text1")
-  #          )
-  #   )
 )
-
 
 server <- function(input, output, session) {
   
