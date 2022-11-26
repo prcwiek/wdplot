@@ -1,4 +1,3 @@
-## server.R
 ## Weibull distribution plot in Shiny
 ## Author: Pawel Cwiek <pablorcw@users.noreply.github.com> [aut,cre]
 ## License: GPL-3
