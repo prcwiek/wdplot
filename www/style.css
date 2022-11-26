@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+h1 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+h5 {
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+p{
+	font-family: Montserrat;
+  font-size: 14px;
+}
+
+body {
+  font-family: Montserrat;
+  background-color: #ffffff;
+}
+
+.irs--shiny .irs-bar {
+  top: 25px;
+  height: 8px;
+  border-top: 1px solid #A52A2A;
+  border-bottom: 1px solid #A52A2A;
+  background: #A52A2A;
+}
+
+.irs--shiny .irs-from,
+.irs--shiny .irs-to,
+.irs--shiny .irs-single {
+  color: #fff;
+    text-shadow: none;
+  padding: 1px 3px;
+  background-color: #A52A2A;
+    border-radius: 3px;
+  font-size: 11px;
+  line-height: 1.333;
+}
+
+
+
