@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 h1 {
   font-family: Montserrat;
   font-size: 40px;
   font-weight: bold;
-  color: #000000;
+  color: #A52A2A;
 }
 
 h3 {
